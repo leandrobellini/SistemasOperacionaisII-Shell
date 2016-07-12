@@ -1,0 +1,42 @@
+No nosso projeto não tinhamos implementado corretamente o PIPE e os SINAIS.
+
+Nessa versão final, foi implementado todos os requisitos.
+
+Comandos para teste:
+	-> "fg [id]":
+		$: ./shell
+		$: xeyes
+		Aperte CTRL + Z, o shell mostrará em qual posição foi salvo o processo basta executar o comando agora.
+		$: fg [id]
+
+	->: "bg [id]":
+		$: ./shell
+		$: xeyes
+		Aperte CTRL + Z, verifique que o programa "xeyes" parou de rodar, o shell mostrará em qual posição foi salvo o processo, basta exercutar o seguinte comando.
+		$: bg [id]
+		Note agora que o programa "xeyes" funciona perfeitamente em background.
+
+	->: "kill [pid]":
+		$: ./shell
+		$: xeyes
+		Agora abra um terminal e digite a seguinte linha de comando=> $:while true ; do ps uf ;sleep 1; clear; done ;
+		Verifique qual o pid do processo "xeyes"
+		$: kill [pid]
+
+	->: Pipe "|":
+		$: ./shell		
+		
+		$: ls | cat
+		Verifique que imprimiu na tela a listagem do diretorio corrente através do comando "cat"
+
+		$: sleep 2 | ls | cat | sleep4 | ls
+		Verifique que agora imprimiu na tela a listagem do diretorio corrente através do comando "ls"
+
+	->: "jobs":
+		$: ./shell
+		$: jobs
+		Verifique que nada foi impresso na tela pois não há processos na lista de jobs
+		$: xeyes
+		Pressione CTRL + Z
+		$: jobs
+		Verifique que agora há um processo na lista de jobs

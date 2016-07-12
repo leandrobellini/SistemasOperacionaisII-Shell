@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+	Uso: [COMANDO] [PARAMENTROS]...
+
+	Para usar o sheel10 basta digitar o comando (programa) a ser executa
+do separando com barra de espaço os seus parametros.
+	Ex.: ls -l -a
+	Ex.: ls -la
+
+	Para executar um programa na pasta local basta acrescentar antes do
+nome do programa "./".
+	Ex.: ./meuprograma
+
+	Para redirecionar a saída padrão basta acrescentar ">" ou ">>" e o n
+ome do arquivo redirecionado, ">" sobrescreve o arquivo e ">>" adiciona no f
+inal do arquivo.
+	Ex.: ls > saida.txt
+	Ex.: ls >> saida.txt 
+
+	Para redirecinar a entrada padrão basta acrescentar "<" e o nome do
+arquivo redirecionado.
+	Ex.: cat < entrada.txt
+
+
+----------------------------------------------------------------------------
