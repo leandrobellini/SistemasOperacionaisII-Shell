@@ -1,4 +1,4 @@
-#Shell em C - Trabalho da disciplina de Sistemas Operacionais II - ICMC USP
+#Shell em C - Trabalho da disciplina de Sistemas Operacionais II - ICMC USP <br>
 Instituto de Ciências Matemáticas e de Computação
 Departamento de Sistemas de Computação
 SSC0743 – Sistemas Operacionais II
